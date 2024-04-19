@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Monterchi-Serif-Bold;
+    src: url(Monterchi-Serif-Book.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff9e1;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    color: #c18c62;
+    font-size: 48px;
+    font-family: Monterchi-Serif-Bold;
+    letter-spacing: 1px;
+}
+h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #553f2c;
+}
+
+p {
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #553f2c;
+}
+
+span.line {
+    display: inline-block;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.title-box {
+    text-align: center;
+}
+.picture {
+    margin-top: 50px;
+    width: 100%;
+}
+.picture img {
+    width: 100%;
+}
+
+.divider {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+.divider img {
+    width: 100%;
+}
+
+
+.description {
+    margin-top: 50px;
+    text-align: justify;
+}
+.description img {
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 18px;
+    }
+
+    .container {
+        max-width: 1200px;
+        padding: 50px;
+        margin: auto;
+    }
+
+    .picture {
+        display: none;
+    }
+    .description img {
+        width: 40%;
+        margin-left: 20px;
+        display: inline;
+        float: right;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 78px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+}
